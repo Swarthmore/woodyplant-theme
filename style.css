@@ -1,0 +1,142 @@
+/*---------------------------------------------------------------------------------
+
+ Theme Name:   Divi Child Theme
+ Theme URI:    http://woodyplants.brightorangethread.com
+ Description:  
+ Author:       Rachael Crowley
+ Author URI:   
+ Template:     Divi
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+------------------------------ ADDITIONAL CSS HERE ------------------------------*/
+
+span.mobile_menu_bar:before {
+    color: #094a34 !important;
+}
+
+/**Typography**/
+
+
+h2, .product .related h2 {
+	color: #820739 !important;
+}
+h2 a, h3 a, h4 a, h5 a, p a, ul li a {
+	color: #094a34;
+	border-bottom: 1px solid #094a34;
+}
+h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, p a:hover, ul li a:hover {
+	border-bottom: none;
+}
+.et_pb_blurb h2 a {
+	color: #820739;
+	border-bottom: 1px solid #820739;
+}
+.et_pb_blurb h2 a:hover {
+	border-bottom: none;
+}
+.et_pb_text ul, .et_pb_text ol {margin-left: 25px;}
+.et_parallax_bg a, .et_parallax_bg ul li a {font-weight: bold;}
+h2.widgettitle {font-size: 26px;}
+
+
+/**FOOTER**/
+#main-footer .footer-widget h2 {
+	color: #ffffff !important;
+	font-size: 24px;	
+}
+#main-footer .footer-widget a {
+	border-bottom: 1px solid #ffffff;
+}
+#main-footer .et_pb_widget ul li {
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+#main-footer .et_pb_widget ul li:before {
+	content: none;
+}
+#main-footer a.et_pb_button {
+	border-bottom: none;
+	background: #832239 !important;
+    border: 1px solid #832239;
+}
+#main-footer a.et_pb_button:hover {
+	background: #a04b6d !important;
+}
+/**HEADER**/
+
+#et-secondary-menu {float: none; text-align: center;}
+.et-fixed-header#top-header, .et-fixed-header#top-header #et-secondary-nav li ul {
+	background: #487561 !important;
+}
+#et-secondary-nav li a {border-bottom: none;}
+.et_header_style_left #et-top-navigation nav>ul>li>a, .et_header_style_split #et-top-navigation nav>ul>li>a {
+	border-bottom: none;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li.et_pb_button>a, .et-fixed-header #top-menu li.et_pb_button>a {
+	color: #ffffff !important;
+	padding-bottom: 0px;
+}
+
+.et_header_style_left #et-top-navigation nav>ul>li>a:hover, .et_header_style_split #et-top-navigation nav>ul>li>a:hover {
+color: #820739;
+}
+@media (max-width: 980px) {
+.et_mobile_menu li.et_pb_button>a {
+    padding: 0px 0px;
+    color: #ffffff;
+    font-weight: bold;
+}
+}
+
+/**SCHEDULE**/
+.mptt-shortcode-wrapper .mptt-shortcode-table tr.mptt-shortcode-row th {
+	background: #487561 !important;
+	color: #ffffff;
+	font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+	font-size: 24px;
+	padding: .75rem 50px;
+	text-align: left;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-title {
+	font-family: 'Playfair Display',Georgia,"Times New Roman",serif;
+    font-size: 1.3em;
+	color: #820739;
+	padding-top: 2%;
+	text-align: left;
+}
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container:hover .event-title {
+	color: #ffffff;
+}
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container:hover a.event-title{
+	text-decoration: underline !important;
+}
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container:hover span.event-title{
+text-decoration: none;
+}
+
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-subtitle {
+	font-size: 1em;
+}
+.mptt-shortcode-wrapper .mptt-shortcode-table tbody .mptt-event-container .event-description {
+	padding: 0 0 0 0;
+	font-size: .9em;
+}
+td.mptt-shortcode-hours {height: 125px !important;}
+h3.timeslots-title, span.timeslot-description {display: none;}
+.mptt-menu.mptt-navigation-select {display: none !important;}
+
+.mptt-inner-event-content {
+	text-align: left;
+	padding: 0 50px;
+}
+.mptt-shortcode-wrapper .mptt-shortcode-table {margin-top: 0px;}
+
+.timeslot-link {display: none !important;}
+/**SIDEBAR**/
+
+#sidebar .textwidget p {font-size: 14px !important; line-height: 18px !important;}
